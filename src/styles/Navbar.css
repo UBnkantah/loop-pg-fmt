@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-desk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    color: white;
+}
+.nav-icons{
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .nav-desk {
+        display: none;
+    }
+    
+    .nav-icons{
+        display: block;
+    }
+    .nav-mob{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.5em;
+        height: 100vh;
+        width: 100%;
+        display: none;
+    }
+    
+    
+}

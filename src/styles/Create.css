@@ -1,0 +1,61 @@
+/* .createContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.createTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.createBoxCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.createBox{
+    width: 230px;
+    height: 350px;
+    position: relative;
+}
+.createBox img{
+    width: 100%;
+    height: 100%;
+
+}
+.createTxt{
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 100px;
+}
+.createBoxConMob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.createMobCont{
+    text-align: center;
+}
+.createBoxMob{
+    width: 300px;
+    height: 180px;
+    position: relative;
+}
+.createBoxMob img{
+    width: 100%;
+    height: 100%;
+}
+
+.createButton{
+    padding: 10px 25px;
+    border: 1.5px solid black;
+    background: transparent;
+    cursor: pointer;
+}
